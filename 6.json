@@ -1,0 +1,3009 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "containerGroups_xxx101_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '601')]",
+            "type": "String"
+        },
+        "containerGroups_xxx102_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '602')]",
+            "type": "String"
+        },
+        "containerGroups_xxx103_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '603')]",
+            "type": "String"
+        },
+        "containerGroups_xxx104_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '604')]",
+            "type": "String"
+        },
+        "containerGroups_xxx105_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '605')]",
+            "type": "String"
+        },
+        "containerGroups_xxx106_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '606')]",
+            "type": "String"
+        },
+        "containerGroups_xxx107_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '607')]",
+            "type": "String"
+        },
+        "containerGroups_xxx108_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '608')]",
+            "type": "String"
+        },
+        "containerGroups_xxx109_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '609')]",
+            "type": "String"
+        },
+        "containerGroups_xxx110_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '610')]",
+            "type": "String"
+        },
+        "containerGroups_xxx111_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '611')]",
+            "type": "String"
+        },
+        "containerGroups_xxx112_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '612')]",
+            "type": "String"
+        },
+        "containerGroups_xxx113_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '613')]",
+            "type": "String"
+        },
+        "containerGroups_xxx114_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '614')]",
+            "type": "String"
+        },
+        "containerGroups_xxx115_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '615')]",
+            "type": "String"
+        },
+        "containerGroups_xxx116_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '616')]",
+            "type": "String"
+        },
+        "containerGroups_xxx117_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '617')]",
+            "type": "String"
+        },
+        "containerGroups_xxx118_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '618')]",
+            "type": "String"
+        },
+        "containerGroups_xxx119_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '619')]",
+            "type": "String"
+        },
+        "containerGroups_xxx120_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '620')]",
+            "type": "String"
+        },
+        "containerGroups_xxx121_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '621')]",
+            "type": "String"
+        },
+        "containerGroups_xxx122_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '622')]",
+            "type": "String"
+        },
+        "containerGroups_xxx123_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '623')]",
+            "type": "String"
+        },
+        "containerGroups_xxx124_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '624')]",
+            "type": "String"
+        },
+        "containerGroups_xxx125_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '625')]",
+            "type": "String"
+        },
+        "containerGroups_xxx126_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '626')]",
+            "type": "String"
+        },
+        "containerGroups_xxx127_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '627')]",
+            "type": "String"
+        },
+        "containerGroups_xxx128_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '628')]",
+            "type": "String"
+        },
+        "containerGroups_xxx129_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '629')]",
+            "type": "String"
+        },
+        "containerGroups_xxx130_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '630')]",
+            "type": "String"
+        },
+        "containerGroups_xxx131_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '631')]",
+            "type": "String"
+        },
+        "containerGroups_xxx132_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '632')]",
+            "type": "String"
+        },
+        "containerGroups_xxx133_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '633')]",
+            "type": "String"
+        },
+        "containerGroups_xxx134_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '634')]",
+            "type": "String"
+        },
+        "containerGroups_xxx135_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '635')]",
+            "type": "String"
+        },
+        "containerGroups_xxx136_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '636')]",
+            "type": "String"
+        },
+        "containerGroups_xxx137_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '637')]",
+            "type": "String"
+        },
+        "containerGroups_xxx138_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '638')]",
+            "type": "String"
+        },
+        "containerGroups_xxx139_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '639')]",
+            "type": "String"
+        },
+        "containerGroups_xxx140_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '640')]",
+            "type": "String"
+        },
+        "containerGroups_xxx141_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '641')]",
+            "type": "String"
+        },
+        "containerGroups_xxx142_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '642')]",
+            "type": "String"
+        },
+        "containerGroups_xxx143_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '643')]",
+            "type": "String"
+        },
+        "containerGroups_xxx144_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '644')]",
+            "type": "String"
+        },
+        "containerGroups_xxx145_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '645')]",
+            "type": "String"
+        },
+        "containerGroups_xxx146_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '646')]",
+            "type": "String"
+        },
+        "containerGroups_xxx147_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '647')]",
+            "type": "String"
+        },
+        "containerGroups_xxx148_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '648')]",
+            "type": "String"
+        },
+        "containerGroups_xxx149_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '649')]",
+            "type": "String"
+        },
+        "containerGroups_xxx150_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '650')]",
+            "type": "String"
+        },
+        "containerGroups_xxx151_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '651')]",
+            "type": "String"
+        },
+        "containerGroups_xxx152_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '652')]",
+            "type": "String"
+        },
+        "containerGroups_xxx153_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '653')]",
+            "type": "String"
+        },
+        "containerGroups_xxx154_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '654')]",
+            "type": "String"
+        },
+        "containerGroups_xxx155_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '655')]",
+            "type": "String"
+        },
+        "containerGroups_xxx156_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '656')]",
+            "type": "String"
+        },
+        "containerGroups_xxx157_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '657')]",
+            "type": "String"
+        },
+        "containerGroups_xxx158_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '658')]",
+            "type": "String"
+        },
+        "containerGroups_xxx159_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '659')]",
+            "type": "String"
+        },
+        "containerGroups_xxx160_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '660')]",
+            "type": "String"
+        },
+        "containerGroups_xxx161_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '661')]",
+            "type": "String"
+        },
+        "containerGroups_xxx162_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '662')]",
+            "type": "String"
+        },
+        "containerGroups_xxx163_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '663')]",
+            "type": "String"
+        },
+        "containerGroups_xxx164_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '664')]",
+            "type": "String"
+        },
+        "containerGroups_xxx165_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '665')]",
+            "type": "String"
+        },
+        "containerGroups_xxx166_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '666')]",
+            "type": "String"
+        },
+        "containerGroups_xxx167_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '667')]",
+            "type": "String"
+        },
+        "containerGroups_xxx168_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '668')]",
+            "type": "String"
+        },
+        "containerGroups_xxx169_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '669')]",
+            "type": "String"
+        },
+        "containerGroups_xxx170_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '670')]",
+            "type": "String"
+        },
+        "containerGroups_xxx171_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '671')]",
+            "type": "String"
+        },
+        "containerGroups_xxx172_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '672')]",
+            "type": "String"
+        },
+        "containerGroups_xxx173_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '673')]",
+            "type": "String"
+        },
+        "containerGroups_xxx174_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '674')]",
+            "type": "String"
+        },
+        "containerGroups_xxx175_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '675')]",
+            "type": "String"
+        },
+        "containerGroups_xxx176_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '676')]",
+            "type": "String"
+        },
+        "containerGroups_xxx177_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '677')]",
+            "type": "String"
+        },
+        "containerGroups_xxx178_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '678')]",
+            "type": "String"
+        },
+        "containerGroups_xxx179_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '679')]",
+            "type": "String"
+        },
+        "containerGroups_xxx180_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '680')]",
+            "type": "String"
+        },
+        "containerGroups_xxx181_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '681')]",
+            "type": "String"
+        },
+        "containerGroups_xxx182_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '682')]",
+            "type": "String"
+        },
+        "containerGroups_xxx183_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '683')]",
+            "type": "String"
+        },
+        "containerGroups_xxx184_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '684')]",
+            "type": "String"
+        },
+        "containerGroups_xxx185_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '685')]",
+            "type": "String"
+        },
+        "containerGroups_xxx186_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '686')]",
+            "type": "String"
+        },
+        "containerGroups_xxx187_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '687')]",
+            "type": "String"
+        },
+        "containerGroups_xxx188_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '688')]",
+            "type": "String"
+        },
+        "containerGroups_xxx189_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '689')]",
+            "type": "String"
+        },
+        "containerGroups_xxx190_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '690')]",
+            "type": "String"
+        },
+        "containerGroups_xxx191_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '691')]",
+            "type": "String"
+        },
+        "containerGroups_xxx192_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '692')]",
+            "type": "String"
+        },
+        "containerGroups_xxx193_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '693')]",
+            "type": "String"
+        },
+        "containerGroups_xxx194_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '694')]",
+            "type": "String"
+        },
+        "containerGroups_xxx195_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '695')]",
+            "type": "String"
+        },
+        "containerGroups_xxx196_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '696')]",
+            "type": "String"
+        },
+        "containerGroups_xxx197_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '697')]",
+            "type": "String"
+        },
+        "containerGroups_xxx198_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '698')]",
+            "type": "String"
+        },
+        "containerGroups_xxx199_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '699')]",
+            "type": "String"
+        },
+        "containerGroups_xxx100_name": {
+            "defaultValue": "[concat(uniqueString(resourceGroup().id), '600')]",
+            "type": "String"
+        }
+    },
+    "variables": {},
+    "resources": [
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg601_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg601_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg602_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg602_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg603_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg603_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg604_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg604_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg605_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg605_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg606_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg606_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg607_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg607_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg608_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg608_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg609_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg609_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg610_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg610_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg611_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg611_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg612_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg612_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg613_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg613_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg614_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg614_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg615_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg615_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg616_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg616_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg617_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg617_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg618_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg618_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg619_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg619_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg620_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg620_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg621_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg621_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg622_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg622_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg623_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg623_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg624_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg624_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg625_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg625_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg626_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg626_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg627_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg627_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg628_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg628_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg629_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg629_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg630_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg630_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg631_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg631_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg632_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg632_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg633_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg633_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg634_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg634_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg635_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg635_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg636_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg636_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg637_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg637_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg638_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg638_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg639_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg639_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg640_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg640_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg641_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg641_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg642_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg642_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg643_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg643_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg644_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg644_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg645_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg645_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg646_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg646_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg647_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg647_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg648_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg648_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg649_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg649_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg650_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg650_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg651_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg651_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg652_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg652_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg653_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg653_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg654_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg654_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg655_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg655_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg656_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg656_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg657_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg657_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg658_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg658_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg659_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg659_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg660_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg660_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg661_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg661_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg662_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg662_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg663_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg663_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg664_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg664_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg665_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg665_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg666_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg666_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg667_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg667_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg668_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg668_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg669_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg669_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg670_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg670_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg671_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg671_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg672_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg672_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg673_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg673_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg674_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg674_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg675_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg675_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg676_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg676_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg677_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg677_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg678_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg678_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg679_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg679_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg680_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg680_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg681_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg681_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg682_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg682_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg683_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg683_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg684_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg684_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg685_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg685_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg686_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg686_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg687_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg687_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg688_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg688_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg689_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg689_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg690_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg690_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg691_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg691_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg692_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+						"name": "[parameters('containerGroups_ggsdfg692_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg693_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg693_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg694_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg694_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg695_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg695_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg696_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg696_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg697_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg697_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg698_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg698_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg699_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg699_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('containerGroups_ggsdfg600_name')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('containerGroups_ggsdfg600_name')]",
+                        "properties": {
+                            "image": "aparra001/new48z3:latest",
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 6,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        }
+    ]
+}
